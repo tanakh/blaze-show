@@ -21,3 +21,13 @@ library
                      , bytestring >=0.10
                      , blaze-builder >=0.3.1
                      , blaze-textual
+
+benchmark bench
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      dist
+  main-is:             ../bench.hs
+  ghc-options:         -O3 -fllvm
+
+  build-depends:       base
+                     , criterion >=0.6.2
+                     , blaze-show
