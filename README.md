@@ -16,6 +16,7 @@ import           GHC.Generics
 import           Blaze.Show
 
 data Foo = Foo { fooA :: Int, fooB :: Bool }
+  -- make sure this is an instance of Generic
   deriving (Show, Generics)
 
 -- Derive automatically
