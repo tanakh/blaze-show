@@ -16,7 +16,6 @@ cabal-version:       >=1.8
 
 library
   exposed-modules:     Blaze.Show
-  ghc-options:         -O3 -fllvm
 
   build-depends:       base >=4.6 && <5
                      , bytestring >=0.10
