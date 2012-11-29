@@ -31,5 +31,6 @@ benchmark bench
   build-depends:       base
                      , criterion >=0.6.2
                      , bytestring
+                     , generic-deriving
                      , blaze-builder
                      , blaze-show
